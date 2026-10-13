@@ -1,0 +1,26 @@
+{
+  "name": "lifelink-smart-blood-network",
+  "version": "1.0.0",
+  "description": "LifeLink – Smart Blood Donor Network",
+  "scripts": {
+    "backend:install": "npm --prefix backend install",
+    "frontend:install": "npm --prefix frontend install",
+    "install:all": "npm run backend:install && npm run frontend:install",
+    "backend:dev": "npm --prefix backend run dev",
+    "frontend:dev": "npm --prefix frontend run dev",
+    "backend:test": "npm --prefix backend test",
+    "backend:seed": "npm --prefix backend run seed",
+    "build": "npm --prefix backend run build && npm --prefix frontend run build"
+  },
+  "keywords": [
+    "blood-donation",
+    "healthcare",
+    "ai-matching",
+    "full-stack",
+    "prisma",
+    "react",
+    "express"
+  ],
+  "author": "LifeLink Engineering Team",
+  "license": "MIT"
+}
